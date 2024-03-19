@@ -1,0 +1,54 @@
+.sidebar {
+  background: #110223;
+  color: #fff; 
+  z-index: 10000;
+  width: 200px; 
+  transition: all 0.5s;
+  margin-left: 0px;
+  margin-top: 0px;
+  position: sticky;
+  height: 1000px;
+}
+
+.link {
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.topbarWrapper {
+    position: sticky;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #110223;
+    color: #fff;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns:5% 25% 70%;
+
+}
+
+tr:hover {background-color: coral;}
+
+th {
+    background: #110223;
+    color: white;
+}
+td{
+    padding: 5px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
